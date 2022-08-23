@@ -13,21 +13,20 @@ body {
 
 /*headings logo*/
 
-h1, h2 {
+h1 {
     font-family: Osawald, sans-serif;
     text-transform: uppercase;
-    color: #000000;
+    color: #a6c311;
 }
 
 .navbar {
     width: 100%;
     margin: auto;
     padding: 16px 0;
-    background: #a6c311;
+    background: #000000;
     align-items: center;
-    text-align: center;
     display: flex;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     justify-content: space-between;
 }
 
@@ -53,9 +52,10 @@ h1, h2 {
     display: inline-block;
     margin: 30px;
     font-size: 110%;
+    font-weight: bold;
 }
 
-.menu ul li :hover{
+.menu ul li a:hover{
     border-bottom: 2px solid;
     border-color: #ffffff;
     
@@ -63,16 +63,76 @@ h1, h2 {
 
 .menu ul li a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 
 
 /*hero image*/
 
 #hero-image {
-    height: 700px;
+    height: 600px;
     width: 100%;
     background: url('../images/pexels-rui-dias-1472887.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*mission and vision*/
+
+.goal {
+    background-color: #e7ebf8;
+    padding: 25px 0 150px 200px;
+}
+
+.goal h2 {
+    padding-top: 25px;
+    font-size: 42px;
+    font-family: sans-serif; 
+    
+}
+
+.goal p {
+    padding-top: 25px;
+    font-size: 18px;
+    font-family: lato, Oswald;
+}
+
+/*brief informantion about site with button*/
+
+#more-info {
+    width: 200px;
+    height: 50px;
+    background-color: #e7ebf8;
+    border: 2px solid #000000;
+    margin-top: 25px;
+    word-spacing: 2px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#more-info:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.our-classes h2 {
+    text-align: center;
+    margin: 30px 0 10px;
+    font-size: 44px;
+    word-spacing: 2px;
+    letter-spacing: 6px;
+    font-family: sans-serif; 
+}
+
+.our-classes p {
+    text-align: center;
+    font-size: 18px;
+    font-family: lato, Oswald;
+}
+
+#btt {
+    width: 200px;
+    height: 50px;
+    text-align: center;
 }
