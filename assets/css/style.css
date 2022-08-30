@@ -159,6 +159,7 @@ div .btn:hover {
     display: flex;
     justify-content: center;
     padding: 5px;
+    cursor: pointer;
 }
 
 .container1 {
@@ -266,7 +267,7 @@ div .btn:hover {
     background-color: hsl(0, 88%, 36%);
     display: flex;
     justify-content: center;
-    margin: 100px 0;   
+    margin: 50px 0;   
 }
 
 .price-list1 {
@@ -389,14 +390,148 @@ div span7 {
 }
 
 
+/* social media icon
+
+.contact {
+    font-family: sans-serif Oswald, lato;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    background-color: #e7ebf8;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0 , 0, 1);
+    transition: all 0.3s ease-out;
+}
+
+.wrapper.button:hover {
+    width: 200px;
+}
+
+.wrapper.button.icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper.button:nth-child(1)
+hover.icon {
+    background: #4267b2;
+}
 
 
+.wrapper.button:nth-child(2)
+hover.icon {
+    background: #1da1f2;
+}
 
 
+.wrapper.button:nth-child(3)
+hover.icon {
+    background: #e1306c;
+}
 
 
+.wrapper.button:nth-child(4)
+hover.icon {
+    background: #ff0000;
+}
 
+.wrapper.button.icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
 
+.wrapper.button:nth-child(1)
+span {
+    color: #4267B2;
+}
 
+.wrapper.button:nth-child(2)
+span {
+    color: #1DA1F2;
+}
 
+.wrapper.button:nth-child(3)
+span {
+    color: #E1306C;
+}
 
+.wrapper.button:nth-child(4)
+span {
+    color: #ff0000;
+}
+
+*/
+
+.contact {
+    width: 100%;
+    height: 100%;
+    background: #e7ebf8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact h2 {
+    font-size: 40px;
+    margin: 100px 0;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+    margin: 0 30px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.4s;
+}
+
+.social-links a .fa-brands {
+    font-size: 30px;
+    line-height: 80px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+
+.social-links a::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top:  -90px;
+    left: 0;
+    background: linear-gradient(-45deg, #ed1c94, #ffec17);
+    position: absolute;
+    transition: 0.4s;
+}
+
+.social-links a:hover::after {
+    top: 0;
+}
+
+.social-links a .fa-brands {
+    color: #ffffff;
+}
+
+.social-links a:hover {
+    transform: translateY(-10px);
+}
