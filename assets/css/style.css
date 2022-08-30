@@ -266,8 +266,7 @@ div .btn:hover {
 .container-list {
     background-color: hsl(0, 88%, 36%);
     display: flex;
-    justify-content: center;
-    margin: 50px 0;   
+    justify-content: center;   
 }
 
 .price-list1 {
@@ -534,4 +533,64 @@ span {
 
 .social-links a:hover {
     transform: translateY(-10px);
+}
+
+/*footer section
+footer {
+    position: 
+    width 100%;
+    height: auto;
+    padding: 50px 100px;
+    background-color: #000000;
+}
+ 
+
+.foot {
+    background-color: #24262b;
+}
+
+.container7 {
+    max-width: 1170px;
+    background-color: #04060c79;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: 24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width:25% ;
+    padding: 0 15px;
+}
+
+footer section*/
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #000000;
 }
